@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carrinho | Livraria Marginália</title>
+  <meta name="description" content="Livraria Marginália: livros para ler devagar. Romance, poesia, suspense, ficção científica e mais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Marginália</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="index.html#catalogo">Catálogo</a>
+        <a class="cart-link" href="carrinho.html">Carrinho (<span class="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container cart-page">
+    <h1>Seu carrinho</h1>
+    <div class="cart-layout">
+      <section id="lista-carrinho" aria-live="polite"></section>
+      <aside class="summary" id="resumo">
+        <h2>Resumo do pedido</h2>
+        <div class="summary-row"><span>Subtotal</span><span id="subtotal">R$ 0,00</span></div>
+        <div class="summary-row"><span>Frete</span><span id="frete">R$ 0,00</span></div>
+        <div class="summary-row summary-total"><span>Total</span><span id="total">R$ 0,00</span></div>
+        <button class="btn" id="btn-finalizar">Finalizar pedido</button>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <strong>Livraria Marginália</strong><br>
+        Projeto acadêmico. Livros, autores e preços são fictícios.
+      </div>
+      <div>
+        <a href="index.html">Início</a> &nbsp; <a href="index.html#catalogo">Catálogo</a> &nbsp; <a href="carrinho.html">Carrinho</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

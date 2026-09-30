@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Livraria Marginália | Livros para ler devagar</title>
+  <meta name="description" content="Livraria Marginália: livros para ler devagar. Romance, poesia, suspense, ficção científica e mais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Marginália</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="index.html#catalogo">Catálogo</a>
+        <a class="cart-link" href="carrinho.html">Carrinho (<span class="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div>
+          <h1>Livros para ler devagar</h1>
+          <p>Uma seleção de romances, poesia, suspense e crônicas escolhida por quem lê. Frete grátis em compras acima de R$ 150,00.</p>
+          <a class="btn" href="#catalogo">Ver o catálogo</a>
+        </div>
+        <img src="images/prateleira.jpg" alt="Prateleira cheia de livros coloridos">
+      </div>
+    </section>
+
+    <section class="section" id="catalogo">
+      <div class="container">
+        <div class="section-head">
+          <h2>Catálogo</h2>
+          <p>8 títulos disponíveis</p>
+        </div>
+        <div class="grid">
+        <article class="card">
+          <a href="produto.html?id=1"><img src="images/livro1.jpg" alt="Capa do livro O Farol de Papel"></a>
+          <div class="card-body">
+            <p class="author">Romance</p>
+            <h3><a href="produto.html?id=1">O Farol de Papel</a></h3>
+            <p class="author">Helena Duarte</p>
+            <p class="price">R$ 54,90</p>
+            <button class="btn" data-add="1">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        <article class="card">
+          <a href="produto.html?id=2"><img src="images/livro2.jpg" alt="Capa do livro Rios Subterrâneos"></a>
+          <div class="card-body">
+            <p class="author">Ficção científica</p>
+            <h3><a href="produto.html?id=2">Rios Subterrâneos</a></h3>
+            <p class="author">Caio Bastos</p>
+            <p class="price">R$ 62,00</p>
+            <button class="btn" data-add="2">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        <article class="card">
+          <a href="produto.html?id=3"><img src="images/livro3.jpg" alt="Capa do livro Receitas de Domingo"></a>
+          <div class="card-body">
+            <p class="author">Gastronomia</p>
+            <h3><a href="produto.html?id=3">Receitas de Domingo</a></h3>
+            <p class="author">Marta Lins</p>
+            <p class="price">R$ 79,90</p>
+            <button class="btn" data-add="3">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        <article class="card">
+          <a href="produto.html?id=4"><img src="images/livro4.jpg" alt="Capa do livro A Última Estação"></a>
+          <div class="card-body">
+            <p class="author">Suspense</p>
+            <h3><a href="produto.html?id=4">A Última Estação</a></h3>
+            <p class="author">Otávio Reis</p>
+            <p class="price">R$ 49,90</p>
+            <button class="btn" data-add="4">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        <article class="card">
+          <a href="produto.html?id=5"><img src="images/livro5.jpg" alt="Capa do livro Cartas ao Mar"></a>
+          <div class="card-body">
+            <p class="author">Poesia</p>
+            <h3><a href="produto.html?id=5">Cartas ao Mar</a></h3>
+            <p class="author">Inês Carvalho</p>
+            <p class="price">R$ 39,90</p>
+            <button class="btn" data-add="5">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        <article class="card">
+          <a href="produto.html?id=6"><img src="images/livro6.jpg" alt="Capa do livro Mapa das Coisas Perdidas"></a>
+          <div class="card-body">
+            <p class="author">Aventura</p>
+            <h3><a href="produto.html?id=6">Mapa das Coisas Perdidas</a></h3>
+            <p class="author">Bruno Andrade</p>
+            <p class="price">R$ 58,00</p>
+            <button class="btn" data-add="6">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        <article class="card">
+          <a href="produto.html?id=7"><img src="images/livro7.jpg" alt="Capa do livro Pequeno Manual de Silêncio"></a>
+          <div class="card-body">
+            <p class="author">Crônicas</p>
+            <h3><a href="produto.html?id=7">Pequeno Manual de Silêncio</a></h3>
+            <p class="author">Lúcia Prado</p>
+            <p class="price">R$ 44,90</p>
+            <button class="btn" data-add="7">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        <article class="card">
+          <a href="produto.html?id=8"><img src="images/livro8.jpg" alt="Capa do livro Código e Café"></a>
+          <div class="card-body">
+            <p class="author">Tecnologia</p>
+            <h3><a href="produto.html?id=8">Código e Café</a></h3>
+            <p class="author">Rafael Nunes</p>
+            <p class="price">R$ 89,90</p>
+            <button class="btn" data-add="8">Adicionar ao carrinho</button>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="container">
+        <div>
+          <h2>Não sabe por onde começar?</h2>
+          <p>Abra a página de qualquer livro para ler a sinopse e ver o preço antes de adicionar ao carrinho.</p>
+        </div>
+        <a class="btn" href="produto.html?id=1">Ver um livro</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <strong>Livraria Marginália</strong><br>
+        Projeto acadêmico. Livros, autores e preços são fictícios.
+      </div>
+      <div>
+        <a href="index.html">Início</a> &nbsp; <a href="index.html#catalogo">Catálogo</a> &nbsp; <a href="carrinho.html">Carrinho</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
